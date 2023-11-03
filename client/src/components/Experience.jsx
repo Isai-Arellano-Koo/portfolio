@@ -23,30 +23,30 @@ const Experience = () => {
         <p className="text-xl max-w-3xl mr-5 mb-10">
           I have experience in building server-side
           applications and systems using:
-           <p className="text-green mt-4">JavaScript</p>
-           <p className="text-green">NodeJS</p>
-           <p className="text-green">Express</p>
-           <p className="text-green">Sequelize</p>
-           <p className="text-green">Json Web Token</p>
-           <p className="text-green">Node Mailer</p>
-           <p className="text-green">Cloudinary</p>
+           <span className="text-green mt-4 block">JavaScript</span>
+           <span className="text-green block">NodeJS</span>
+           <span className="text-green block">Express</span>
+           <span className="text-green block">Sequelize</span>
+           <span className="text-green block">Json Web Token</span>
+           <span className="text-green block">Node Mailer</span>
+           <span className="text-green block">Cloudinary</span>
         </p>
         <p className="text-xl max-w-3xl mr-5 mb-10">
         Also, I have experience in databases using:
-        <p className="text-green mt-4">Postgres</p>
-        <p className="text-green">MySQL</p>
+        <span className="text-green mt-4 block">Postgres</span>
+        <span className="text-green block">MySQL</span>
         </p>
         <p className="text-xl max-w-3xl mb-10">
           In addition to my backend experience, I'm
           also familiar with technologies and frameworks for client-side
           development: 
-          <p className="text-green mt-4">React JS</p>
-          <p className="text-green">Redux - Redux Toolkit</p>
-          <p className="text-green">Tailwind CSS</p>
+          <span className="text-green mt-4 block">React JS</span>
+          <span className="text-green block">Redux - Redux Toolkit</span>
+          <span className="text-green block">Tailwind CSS</span>
         </p>
         <p className="text-xl max-w-3xl mr-5">Extras: 
-        <p className="text-green mt-4">GitHub</p>
-        <p className="text-green">Git Flow</p>
+        <span className="text-green mt-4 block">GitHub</span>
+        <span className="text-green block">Git Flow</span>
         </p>
       </div>
     </div>
