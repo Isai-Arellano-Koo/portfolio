@@ -4,11 +4,11 @@ const Nav = () => {
     <div className="fixed top-0 w-full p-10 flex backdrop-blur-sm justify-between bg-blue-light text-color-links">
       <div>
       <a href="#home">
-        <h1 className="ml-10 text-green font-mono">ISAI ARELLANO KOO</h1>
+        <h1 className="ml-10 text-green font-mono">DEVELOPER</h1>
       </a>
        
       </div>
-      <div className="block">
+      <div className="">
         <a className="mr-10 font-mono hover:text-white" href="#about">
           <span className="text-green">01. </span>About me
         </a>
