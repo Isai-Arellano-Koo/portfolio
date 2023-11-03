@@ -20,10 +20,14 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false
     },
-    url: {
+    urlDeploy: {
         type: DataTypes.STRING,
         allowNull: true
-    }
+    },
+    urlGitHub: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
 
     }, {timestamps: false})
 }
