@@ -4,11 +4,11 @@ const Home = () => {
   return (
     <div className="text-white pt-48 font-mono flex flex-col ml-10 lg:ml-40">
       <h3 className="text-green mb-6">Hello, My name is</h3>
-      <h1 className="text-7xl text-white">Isai Arellano Koo</h1>
-      <h3 className="text-5xl mt-2 text-color-links font-viet">
+      <h1 className=" text-5xl md:text-7xl text-white">Isai Arellano Koo</h1>
+      <h3 className=" text-3xl md:text-5xl mt-2 text-color-links font-viet">
         Full Stack Developer
       </h3>
-      <p className="mt-20 font-viet text-2xl text-color-links">
+      <p className="mt-20 font-viet text-xl md:text-2xl text-color-links">
         I live in Peru, and I'm passionate about <br /> technology. I'm always
         open and willing to learn <br /> new things and to take advantage of all
         the opportunities <br /> that may arise.
