@@ -8,7 +8,7 @@ const Nav = () => {
       </a>
        
       </div>
-      <div className="hidden block">
+      <div className="block">
         <a className="mr-10 font-mono hover:text-white" href="#about">
           <span className="text-green">01. </span>About me
         </a>
