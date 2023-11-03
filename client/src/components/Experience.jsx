@@ -23,7 +23,7 @@ const Experience = () => {
         <p className="text-xl max-w-3xl mr-5 mb-10">
           I have experience in building server-side
           applications and systems using:
-           <p className="text-green">JavaScript</p>
+           <p className="text-green mt-4">JavaScript</p>
            <p className="text-green">NodeJS</p>
            <p className="text-green">Express</p>
            <p className="text-green">Sequelize</p>
@@ -33,19 +33,19 @@ const Experience = () => {
         </p>
         <p className="text-xl max-w-3xl mr-5 mb-10">
         Also, I have experience in databases using:
-        <p className="text-green">Postgres</p>
+        <p className="text-green mt-4">Postgres</p>
         <p className="text-green">MySQL</p>
         </p>
         <p className="text-xl max-w-3xl mb-10">
           In addition to my backend experience, I'm
           also familiar with technologies and frameworks for client-side
           development: 
-          <p className="text-green">React JS</p>
+          <p className="text-green mt-4">React JS</p>
           <p className="text-green">Redux - Redux Toolkit</p>
           <p className="text-green">Tailwind CSS</p>
         </p>
         <p className="text-xl max-w-3xl mr-5">Extras: 
-        <p className="text-green">GitHub</p>
+        <p className="text-green mt-4">GitHub</p>
         <p className="text-green">Git Flow</p>
         </p>
       </div>
