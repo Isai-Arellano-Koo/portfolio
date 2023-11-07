@@ -16,7 +16,7 @@ server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());
 server.use(morgan('dev'));
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:5173'); // update
+  res.header('Access-Control-Allow-Origin', 'https://portfolio-isai.vercel.app'); // update
   res.header('Access-Control-Allow-Credentials', 'true');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
@@ -26,7 +26,7 @@ server.use((req, res, next) => {
 // http://localhost:5173
 
 const corsOptions = {
-  origin: 'http://localhost:5173', 
+  origin: 'https://portfolio-isai.vercel.app', 
   credentials: true, 
 };
 

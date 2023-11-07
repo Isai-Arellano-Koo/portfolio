@@ -1,0 +1,18 @@
+/* Estilos para el menú desplegable en dispositivos móviles */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Inicialmente oculto fuera del borde derecho */
+    width: 70%; /* Ancho del menú desplegable */
+    height: 100%;
+    background-color: #333; /* Color de fondo */
+    z-index: 999; /* Asegura que el menú esté por encima de otros elementos */
+    transition: transform 0.3s ease; /* Transición suave de transformación */
+    padding: 2rem;
+  }
+  
+  /* Clase para mostrar el menú desplegable */
+  .mobile-menu-open {
+    transform: translateX(-70%); /* Desplaza el menú hacia la izquierda para mostrarlo */
+  }
+  
