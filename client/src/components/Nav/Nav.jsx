@@ -10,7 +10,6 @@ const Nav = () => {
       setIsMobileMenuOpen(false);
     }
   };
-
   return (
     <div className="fixed top-0 w-full p-3 lg:p-10 flex backdrop-blur-sm justify-between bg-blue-light text-color-links items-center">
       <div>
@@ -42,16 +41,16 @@ const Nav = () => {
       </div>
       {isMobileMenuOpen && (
         <div className="md:hidden">
-          <a className="block text-green p-2" href="#about">
+          <a className={`block font-mono p-2 ${activeLink === "about" ? "text-green" : ""} `} href="#about" onClick={() => handleLinkClick("about")}>
             About me
           </a>
-          <a className="block text-green p-2" href="#experience">
+          <a className={`block font-mono p-2 ${activeLink === "experience" ? "text-green" : ""} `} href="#experience" onClick={() => handleLinkClick("experience")}>
             Experience
           </a>
-          <a className="block text-green p-2" href="#projects">
+          <a className={`block font-mono p-2 ${activeLink === "projects" ? "text-green" : ""} `} href="#projects" onClick={() => handleLinkClick("projects")}>
             Projects
           </a>
-          <a className="block text-green p-2" href="#contact">
+          <a className={`block font-mono p-2 ${activeLink === "contact" ? "text-green" : ""} `} href="#contact" onClick={() => handleLinkClick("contact")}>
             Contact
           </a>
         </div>
