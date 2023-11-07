@@ -12,10 +12,10 @@ const Nav = () => {
   };
 
   return (
-    <div className="fixed top-0 w-full p-10 flex backdrop-blur-sm justify-between bg-blue-light text-color-links">
+    <div className="fixed top-0 w-full p-3 lg:p-10 flex backdrop-blur-sm justify-between bg-blue-light text-color-links items-center">
       <div>
         <a href="#home" onClick={() => handleLinkClick("")}>
-          <h1 className="ml-10 text-green font-mono">DEVELOPER</h1>
+          <h1 className="ml-10 mt-2 text-green font-mono">DEVELOPER</h1>
         </a>
       </div>
       <div className="hidden md:flex">

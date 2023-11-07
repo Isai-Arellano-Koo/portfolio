@@ -14,7 +14,7 @@ const Projects = () => {
     })
   }, [])
   return (
-    <div className='text-white pt-40 ml-10 lg:ml-48 max-w-8xl'>
+    <div className='text-white pt-40 ml-10 lg:ml-48 max-w-8xl mr-5'>
      <h2 className="font-mono text-3xl mb-10 ">
         <span className="text-green font-mono">03. </span>Personal Projects
       </h2>
