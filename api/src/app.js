@@ -23,6 +23,8 @@ server.use((req, res, next) => {
   next();
 });
 
+
+// https://portfolio-isai.vercel.app
 // http://localhost:5173
 
 const corsOptions = {
