@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="text-white pt-48 font-mono flex flex-col ml-10 lg:ml-40">
+    <div className="text-white pt-32 lg:pt-48 font-mono flex flex-col ml-10 lg:ml-40">
       <h3 className="text-green mb-6">Hello, My name is</h3>
       <h1 className=" text-5xl md:text-7xl text-white">Isai Arellano Koo</h1>
       <h3 className=" text-3xl md:text-5xl mt-2 text-color-links font-viet">
