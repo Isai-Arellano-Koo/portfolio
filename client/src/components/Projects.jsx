@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <div className='text-white pt-40 ml-10 lg:ml-48 max-w-8xl mr-5'>
      <h2 className="font-mono text-3xl mb-10 ">
-        <span className="text-green font-mono">03. </span>Personal Projects
+        <span className="text-green font-mono">03. </span>Projects
       </h2>
       <div className='flex lg:flex-row flex-wrap gap-10'>
       {projects?.map((project) => {return (

@@ -11,6 +11,17 @@ const sequelize = new Sequelize(
       native: false, // lets Sequelize know we can use pg-native for ~30% more speed
    }
 );
+
+// const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
+//    host: DB_HOST,
+//    port: DB_PORT,
+//    dialect: 'mysql', // Cambiado de 'postgres' a 'mysql'
+//    logging: false, // set to console.log to see the raw SQL queries
+//    define: {
+//       timestamps: false, // Desactiva la generación automática de timestamps
+//    },
+// });
+
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
@@ -39,7 +50,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { Pokemon, Type } = sequelize.models;
+const {} = sequelize.models;
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
