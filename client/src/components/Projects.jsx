@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProjectCard from './ProjectCard'
+import { projects } from '../../projects'
 
 
 const Projects = () => {
-  const [projects, setProjects] = useState([])
+  // const [projects, setProjects] = useState([])
 
-  useEffect(() => {
-    axios('/projects').then(({data}) => {
-      const projects = data
-      setProjects(projects)
-    }).catch((error) => {
-      console.log(error.message)
-    })
-  }, [])
+  // useEffect(() => {
+  //   axios('/projects').then(({data}) => {
+  //     const projects = data
+  //     setProjects(projects)
+  //   }).catch((error) => {
+  //     console.log(error.message)
+  //   })
+  // }, [])
   return (
     <div className='text-white pt-40 ml-10 lg:ml-48 max-w-8xl mr-5'>
      <h2 className="font-mono text-3xl mb-10 ">
