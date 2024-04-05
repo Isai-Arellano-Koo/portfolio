@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProjectCard from './ProjectCard'
-import { projects } from '../../projects'
+import { projectsES } from '../tranlations/es/global.json'
+import { projectsEN } from '../tranlations/en/global.json'
+import { useTranslation } from 'react-i18next'
 
 
 const Projects = () => {
+const [t, i18n] = useTranslation("global")
+
+const projects = i18n.language === 'es' ? projectsES : projectsEN
+
   // const [projects, setProjects] = useState([])
 
   // useEffect(() => {
@@ -22,7 +28,7 @@ const Projects = () => {
       </h2>
       <div className='flex lg:flex-row flex-wrap gap-10'>
       {projects?.map((project) => {return (
-        <ProjectCard key={project.id} name={project.name} image={project.image} description={project.description} urlDeploy={project.urlDeploy} urlGitHub={project.urlGitHub}/>
+        <ProjectCard key={project.id} name={t(project.name)} image={project.image} description={t(project.description)} urlDeploy={project.urlDeploy} urlGitHub={project.urlGitHub}/>
       )})}
       </div>
       
