@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lottie-react-web": "^2.2.2",
+    "react-gif-player": "^0.4.2"
+  }
+}
