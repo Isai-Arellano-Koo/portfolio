@@ -1,8 +1,8 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import Lottie from 'react-lottie';
-import gifJson from '../../Comp 1.json';
+import Bodymovin from "react-bodymovin";
+import animationData from '../../Comp 1.json';
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global");
@@ -13,10 +13,9 @@ const Contact = () => {
         <span className="text-green font-mono">04. {t("nav.contact")} </span>{}
       </h2>
       <h3 className="text-3xl lg:text-6xl text-color-links font-viet text-center">{t("contact.text")}</h3>
-      {/* Utiliza el componente Lottie para renderizar la animación */}
-      {gifJson && (
-        <Lottie animationData={gifJson} loop={true} />
-      )}
+      <div>
+      <Bodymovin animationData={animationData} loop autoplay />
+    </div>
       <div className="flex gap-5 justify-center mt-5">
         <div className="my-4">
           <a target="_blank" className="text-8xl hover:text-green" href="https://github.com/Isai-Arellano-Koo">
