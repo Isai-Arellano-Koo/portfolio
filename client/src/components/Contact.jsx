@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaEnvelope  } from "react-icons/fa";
 import gifJson from '../../Comp 1.json'
-import Lottie from "lottie-react-web"; 
+import Bodymovin from 'bodymovin';
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global")
@@ -16,11 +16,7 @@ const Contact = () => {
       <h3 className="text-3xl lg:text-6xl text-color-links font-viet text-center">{t("contact.text")}</h3>
       {/* Utiliza el componente Lottie para renderizar la animación */}
       {gifJson && (
-        <Lottie
-          options={{ animationData: gifJson, loop: true }}
-          width={400}
-          height={400}
-        />
+        <Bodymovin animationData={gifJson} loop={true} />
       )}
       <div className="flex gap-5 justify-center mt-5">
       <div className="my-4">
