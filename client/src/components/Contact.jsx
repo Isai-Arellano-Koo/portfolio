@@ -1,24 +1,21 @@
-import React, {useEffect, useRef} from "react";
+import React, {useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { Rive } from 'rive-js';
+import Lottie from 'react-lottie';
 import gifJson from "../../Comp1.json";
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global");
-  const canvasRef = React.useRef(null);
 
-  useEffect(() => {
-    const rive = new Rive({
-      src: gifJson,
-      canvas: canvasRef.current,
-      autoplay: true, // Opcional: reproduce automáticamente la animación
-    });
-
-    return () => {
-      rive.stop();
-    };
-  }, []);
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: gifJson,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+  
 
   return (
     <div className="text-white pt-40 flex flex-col ml-10 lg:ml-48 mr-10 max-w-6xl mb-20">
@@ -28,7 +25,7 @@ const Contact = () => {
       <h3 className="text-3xl lg:text-6xl text-color-links font-viet text-center">
         {t("contact.text")}
       </h3>
-      <canvas ref={canvasRef} />;
+      <Lottie options={defaultOptions} height={400} width={400} />
       <div className="flex gap-5 justify-center mt-5">
         <div className="my-4">
           <a
