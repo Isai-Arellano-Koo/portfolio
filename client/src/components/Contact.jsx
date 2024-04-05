@@ -25,7 +25,7 @@ const Contact = () => {
       <h3 className="text-3xl lg:text-6xl text-color-links font-viet text-center">
         {t("contact.text")}
       </h3>
-      <Lottie options={defaultOptions} height={400} width={400} />
+      <Lottie options={defaultOptions} height={700} width={700} />
       <div className="flex gap-5 justify-center mt-5">
         <div className="my-4">
           <a

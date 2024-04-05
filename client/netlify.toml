@@ -4,4 +4,4 @@
   status = 200
 
 [build]
-  command = "npm install --force && npm run build"
+  command = "npm install && npm run build"
