@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaEnvelope  } from "react-icons/fa";
 import gifJson from '../../Comp 1.json'
-import Lottie from "lottie-react-web"; 
+import Lottie from "lottie-react"; 
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global")
