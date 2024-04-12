@@ -1,20 +1,20 @@
 import React, {useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-// import Lottie from 'react-lottie';
-// import gifJson from "../../Comp1.json";
+import Lottie from 'react-lottie';
+import gifJson from "../../Comp1.json";
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global");
 
-  // const defaultOptions = {
-  //   loop: true,
-  //   autoplay: true,
-  //   animationData: gifJson,
-  //   rendererSettings: {
-  //     preserveAspectRatio: 'xMidYMid slice'
-  //   }
-  // };
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: gifJson,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   
 
   return (
@@ -55,9 +55,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      {/* <div className="flex flex-wrap">
+      <div className="flex flex-wrap">
       <Lottie options={defaultOptions} />
-      </div> */}
+      </div>
     </div>
   );
 };
