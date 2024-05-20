@@ -16,7 +16,6 @@ import AngularSVG from "../IconosSVG/frontendIcons/AngularSVG";
 import GithubSVG from "../IconosSVG/extraIcons/GithubSVG";
 import NotionSVG from "../IconosSVG/extraIcons/NotionSVG";
 
-
 const Experience = () => {
   const [t, i18n] = useTranslation("global");
   return (
