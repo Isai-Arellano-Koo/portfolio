@@ -7,19 +7,23 @@
     },
     "header": {
         "hello": "Hola!, soy",
-        "background": "Soy de Perú y disfruto programar y todo lo relacionado con el mundo tecnológico. Siempre estoy en constante aprendizaje, explorando todo lo que pueda sumar para mi desarrollo en el maravilloso mundo de la programacion.",
+        "background": "Soy de Perú y disfruto programar y todo lo relacionado con el mundo tecnológico. Siempre estoy en constante aprendizaje, explorando todo lo que pueda sumar para mi desarrollo en este mundo de la programacion.",
         "buttoms": {
             "download": "Descarga mi CV",
             "view": "Mira mi CV"
         }
     },
     "about": {
-        "about-text": "Estudié desarrollo full-stack en SoyHenry, con más de 800 horas de curso, aprendiendo a dominar diferentes tecnologías tanto en el frontend como en el backend. Además, soy autodidacta y estoy en constante aprendizaje. Trabajé como autónomo en una startup, liderando el equipo técnico. Siempre estoy dispuesto a enfrentar los desafíos que se presenten."
+        "about-text": "Soy desarrollador web y actualmente estudio en ISIL, donde continúo fortaleciendo mis habilidades en desarrollo full-stack. Me considero autodidacta y siempre estoy en constante aprendizaje. Trabajé en una startup, participando en el desarrollo técnico del proyecto. Me gustan los desafíos y siempre estoy dispuesto a afrontarlos."
+    },
+    "experience-2": {
+        "title": "Desarrollador Backend",
+        "description1": "Tengo experiencia en el desarrollo de aplicaciones y sistemas en el lado del servidor utilizando JavaScript, PHP y una variedad de tecnologías y frameworks."
     },
     "experience": {
-        "title-moru": "Líder de proyecto y Desarrollador en MoruApp",
-        "description1": "Como líder de proyecto, mi rol consiste en liderar y facilitar la comunicación entre equipos, además de asignar tareas y establecer objetivos claros.",
-        "description2": "Como desarrollador, mi principal tarea es brindar apoyo a quienes lo necesiten. Siempre me aseguro de mantener un entorno que ofrezca una excelente experiencia al usuario y, sobre todo, sea seguro.",
+        "title-moru": "Desarrollador de software",
+        "description1": "Trabajé como desarrollador freelance en una aplicacion de e-commerce",
+        "description2": "Como desarrollador siempre trato de asegurarme de mantener un entorno que ofrezca una excelente experiencia al usuario y, sobre todo, sea seguro.",
         "tec-back": "Tengo experiencia en construir aplicaciones y sistemas del lado del servidor utilizando:",
         "tec-database": "También tengo experiencia en bases de datos utilizando:",
         "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:"

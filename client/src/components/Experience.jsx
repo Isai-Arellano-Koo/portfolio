@@ -26,9 +26,15 @@ const Experience = () => {
       </h2>
       <div className="ml-5">
         <div>
-          <h2 className="text-3xl mb-5">{t("experience.title-moru")}</h2>
-          <p className="text-xl mb-5">{t("experience.description1")}</p>
-          <p className="text-xl mb-10">{t("experience.description2")}</p>
+          <div>
+            <h2 className="text-3xl mb-5">{t("experience-2.title")}</h2>
+            <p className="text-xl mb-10">{t("experience-2.description1")}</p>
+          </div>
+          <div>
+            <h2 className="text-3xl mb-5">{t("experience.title-moru")}</h2>
+            <p className="text-xl mb-5">{t("experience.description1")}</p>
+            <p className="text-xl mb-10">{t("experience.description2")}</p>
+          </div>
         </div>
 
         <div className="max-w-4xl mr-5 mb-10">
@@ -106,11 +112,11 @@ const Experience = () => {
           <p className="text-xl text-green">Extras:</p>
           <div className="flex flex-wrap gap-14 items-center mt-14">
             <span className="flex flex-col items-center">
-              {<GithubSVG/>}
+              {<GithubSVG />}
               Github - Github Flow
             </span>
             <span className="text-center">
-              {<NotionSVG/>}
+              {<NotionSVG />}
               Notion
             </span>
           </div>

@@ -1,66 +1,68 @@
 {
-    "nav": {
-        "about-me": "About me",
-        "experience": "Experience",
-        "projects": "Projects",
-        "contact": "Contact"
+  "nav": {
+    "about-me": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "hello": "Hello, My name is",
+    "background": "I'm from Peru and I enjoy coding and everything related to the world of technology. I'm always learning, exploring everything that can contribute to my development in the wonderful world of programming.",
+    "buttoms": {
+      "download": "Download my CV",
+      "view": "View my CV"
+    }
+  },
+  "about": {
+    "about-text": "I am a web developer and currently studying at ISIL, where I continue to strengthen my skills in full-stack development. I consider myself self-taught and am always learning. I worked at a startup, contributing to the technical development of the project. I enjoy challenges and am always ready to take them on."
+  },
+  "experience-2": {
+    "title": "Backend Developer",
+    "description1": "I have experience developing server-side applications and systems using JavaScript, PHP, and a variety of technologies and frameworks."
+  },
+  "experience": {
+    "title-moru": "Software Developer",
+    "description1": "I worked as a freelance developer on an e-commerce application.",
+    "description2": "As a developer, I always strive to maintain an environment that offers an excellent user experience and, above all, is secure.",
+    "tec-back": "I have experience building server-side applications and systems using:",
+    "tec-database": "I also have experience with databases using:",
+    "tec-front": "I'm also familiar with client-side development technologies and frameworks:"
+  },
+  "contact": {
+    "text": "You can check out more about me and reach out to me through the following platforms:"
+  },
+  "projectsEN": [
+    {
+      "id": "97146066-e609-4784-9f7c-19b5617bb938",
+      "name": "Moru App",
+      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699342338/projects%20image/MoruApp_j6k26r.png",
+      "description": "MoruApp is a platform that streamlines the buying and selling of a variety of products across different locations in Colombia, offering features such as geolocation, user and business management, and reviews, among others. The application is powered by technologies like Node.js, Sequelize, ReactJS, and more, delivering an optimized online shopping experience.",
+      "urlDeploy": "https://moru.com.co/",
+      "urlGitHub": null
     },
-    "header": {
-        "hello": "Hello, My name is",
-        "background": "I'm from Peru and I enjoy coding and everything related to the world of technology. I'm always learning, exploring everything that can contribute to my development in the wonderful world of programming.",
-        "buttoms": {
-            "download": "Download my CV",
-            "view": "View my CV"
-        }
-        }, 
-    "about": {
-        "about-text": "I studied full-stack development at SoyHenry, completing over 800 hours of coursework where I learned to master various technologies both on the frontend and backend. Additionally, I'm self-taught and constantly learning. I worked as a freelancer at a startup, leading the technical team. I'm always ready to take on the challenges that come my way."
+    {
+      "id": "c22571a0-88dc-4e51-ac1c-65aee957676a",
+      "name": "Crypto Quote",
+      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",
+      "description": "This cryptocurrency quoting app connects to the CryptoCompare API to provide real-time cryptocurrency value quotes. It allows users to compare these values with various fiat currencies, such as the Peruvian Sol, the US Dollar, Mexican Pesos, and more. Stay updated on cryptocurrency prices in different countries with ease.",
+      "urlDeploy": "https://cotizador-cripto-iak.netlify.app",
+      "urlGitHub": "https://github.com/Isai-Arellano-Koo/cotizador-crypto"
     },
-    "experience": {
-        "title-moru": "Project leader and Developer at MoruApp",
-        "description1": "As a project leader, my role involves leading and facilitating communication between teams, as well as assigning tasks and setting clear objectives.",
-        "description2": "As a developer, my main task is to provide support to those in need. I always ensure to maintain an environment that offers an excellent user experience and, above all, is secure.",
-        "tec-back": "I have experience in building server-side applications and systems using:",
-        "tec-database": "Also, I have experience in databases using:",
-        "tec-front": "I'm also familiar with technologies and frameworks for client-side development:"
+    {
+      "id": "be74a8a0-502f-415b-9e71-73de8ae53128",
+      "name": "Pokemon",
+      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043078/projects%20image/project2_sljjiu.webp",
+      "description": "This Pokémon project is a web application that utilizes ReactJS, Redux, and Vite on the frontend, along with Node, Express, and Sequelize on the backend. It connects to the PokeAPI to display detailed information about Pokémon and enables the creation of new Pokémon with real-time validations. The PostgreSQL database stores the data, and visual styles are implemented using CSS Modules, providing an attractive and efficient user experience.",
+      "urlDeploy": "https://pi-pokemon-isai.vercel.app/",
+      "urlGitHub": "https://github.com/Isai-Arellano-Koo/Pokemon-PI"
     },
-    "contact": {
-      "text": "You can check out more about me and reach out to me through the following platforms:"
-    },
-    "projectsEN": [
-        {
-            "id": "97146066-e609-4784-9f7c-19b5617bb938",
-            "name": "Moru App",
-            "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699342338/projects%20image/MoruApp_j6k26r.png",
-            "description": "MoruApp is a platform that streamlines the buying and selling of a variety of products across different locations in Colombia, offering features such as geolocation, user and business management, and reviews, among others. The application is powered by technologies like Node.js, Sequelize, ReactJS, and more, delivering an optimized online shopping experience.",
-            "urlDeploy": "https://moru.com.co/",
-            "urlGitHub": null
-          },
-          {
-            "id": "c22571a0-88dc-4e51-ac1c-65aee957676a",
-            "name": "Crypto Quote",
-            "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",
-            "description": "This cryptocurrency quoting app connects to the CryptoCompare API to provide real-time cryptocurrency value quotes. It allows users to compare these values with various fiat currencies, such as the Peruvian Sol, the US Dollar, Mexican Pesos, and more. Stay updated on cryptocurrency prices in different countries with ease.",
-            "urlDeploy": "https://cotizador-cripto-iak.netlify.app",
-            "urlGitHub": "https://github.com/Isai-Arellano-Koo/cotizador-crypto"
-          },
-          {
-            "id": "be74a8a0-502f-415b-9e71-73de8ae53128",
-            "name": "Pokemon",
-            "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043078/projects%20image/project2_sljjiu.webp",
-            "description": "This Pokémon project is a web application that utilizes ReactJS, Redux, and Vite on the frontend, along with Node, Express, and Sequelize on the backend. It connects to the PokeAPI to display detailed information about Pokémon and enables the creation of new Pokémon with real-time validations. The PostgreSQL database stores the data, and visual styles are implemented using CSS Modules, providing an attractive and efficient user experience.",
-            "urlDeploy": "https://pi-pokemon-isai.vercel.app/",
-            "urlGitHub": "https://github.com/Isai-Arellano-Koo/Pokemon-PI"
-          },
-          {
-            "id": "c6a3acd5-0995-4709-abeb-a701a9712c41",
-            "name": "Budget Tracker",
-            "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043076/projects%20image/project3_xdo5wy.webp",
-            "description": "This React project is a budget manager that features a pie chart for easy visualization of your remaining budget. It allows you to add budgets, expenses, and categories, and it uses localStorage to store the data. A handy tool for managing your personal finances.",
-            "urlDeploy": "https://control-presupuestos-react-iak.netlify.app",
-            "urlGitHub": "https://github.com/Isai-Arellano-Koo/control-presupuesto-react"
-          }
-    ]
-   
+    {
+      "id": "c6a3acd5-0995-4709-abeb-a701a9712c41",
+      "name": "Budget Tracker",
+      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043076/projects%20image/project3_xdo5wy.webp",
+      "description": "This React project is a budget manager that features a pie chart for easy visualization of your remaining budget. It allows you to add budgets, expenses, and categories, and it uses localStorage to store the data. A handy tool for managing your personal finances.",
+      "urlDeploy": "https://control-presupuestos-react-iak.netlify.app",
+      "urlGitHub": "https://github.com/Isai-Arellano-Koo/control-presupuesto-react"
+    }
+  ]
 }
-  

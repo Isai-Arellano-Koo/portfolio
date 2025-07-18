@@ -31,14 +31,14 @@ const Home = () => {
 
         <div className="flex gap-5 mt-10">
           <a
-            href="./Isai_CV.pdf"
+            href="./Isai_Arellano_CV.pdf"
             download
             className="border-green p-3 border text-green hover:text-color-links hover:border-color-links"
           >
             {t("header.buttoms.download")}
           </a>
           <a
-            href="./Isai_CV.pdf"
+            href="./Isai_Arellano_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="border-green border p-3 text-green hover:text-color-links hover:border-color-links"
