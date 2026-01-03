@@ -41,6 +41,14 @@
       "urlGitHub": null
     },
     {
+      "id": "bb3e1459-999f-4fc4-9257-c6e7b15c3b99",
+      "name": "Bookifa",
+      "image": "../../public/image/bookifa.jpeg",
+      "description": "Bookifa is a virtual library application that allows users to explore a wide and well-organized catalog of books in an intuitive and efficient way. The platform features a role-based system through which authorized users can publish, update, and delete books, ensuring proper content management.Additionally, Bookifa includes a shopping cart that enables users to select and manage the books they are interested in before completing a purchase. To enhance performance and user experience, the application uses techniques such as lazy loading, which optimizes content loading by displaying only the necessary elements at any given time. The application is designed with a strong focus on usability, performance, and security, providing a smooth experience for both end users and system administrators.",
+      "urlDeploy": "https://books-isil-isai.netlify.app/",
+      "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
+      },
+    {
       "id": "c22571a0-88dc-4e51-ac1c-65aee957676a",
       "name": "Crypto Quote",
       "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",
