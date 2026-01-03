@@ -55,9 +55,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-wrap">
+      {/* `<div className="flex flex-wrap">
       <Lottie options={defaultOptions} />
-      </div>
+      </div>` */}
     </div>
   );
 };
