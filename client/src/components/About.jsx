@@ -10,7 +10,7 @@ const About = () => {
       <p className='text-3xl lg:leading-[3.5rem] text-color-links max-w-3xl mr-5 mb-10 lg:mb-0'>
       {t("about.about-text")}
       </p>
-      <img className="max-w-xs" src='https://res.cloudinary.com/isaiarellano/image/upload/v1698981750/IsaYAntho/Isa/isai-ak_agubvh.jpg' alt='isai arellano'/>
+      <img className="max-w-xs" src='https://res.cloudinary.com/isaiarellano/image/upload/v1772605784/Isa_ofhblz.jpg' alt='isai arellano'/>
       </div>
       
     </div>

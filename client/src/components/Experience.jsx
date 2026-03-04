@@ -15,6 +15,7 @@ import TailwindSVG from "../IconosSVG/frontendIcons/TailwindSVG";
 import AngularSVG from "../IconosSVG/frontendIcons/AngularSVG";
 import GithubSVG from "../IconosSVG/extraIcons/GithubSVG";
 import NotionSVG from "../IconosSVG/extraIcons/NotionSVG";
+import Phyton from "../IconosSVG/backendIcons/Phyton";
 
 const Experience = () => {
   const [t, i18n] = useTranslation("global");
@@ -63,6 +64,10 @@ const Experience = () => {
             <span className="text-center max-w-10">
               {<Cloudinary />}
               Cloudinary
+            </span>
+            <span className="text-center max-w-10">
+              {<Phyton />}
+              Phyton
             </span>
           </div>
         </div>
