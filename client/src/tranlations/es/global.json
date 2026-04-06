@@ -16,7 +16,7 @@
         }
     },
     "about": {
-        "about-text": "Soy desarrollador web y actualmente estudio en ISIL, donde continúo fortaleciendo mis habilidades en desarrollo full-stack. Me considero autodidacta y siempre estoy en constante aprendizaje. Trabajé en una startup, participando en el desarrollo técnico del proyecto. Me gustan los desafíos y siempre estoy dispuesto a afrontarlos."
+        "about-text": "Soy desarrollador web y actualmente estudio en ISIL, donde continúo fortaleciendo mis habilidades en desarrollo full-stack. Me considero autodidacta y siempre estoy en constante aprendizaje. Trabajé en una startup, participando en el desarrollo técnico del proyecto. Me gustan los desafíos y siempre estoy dispuesto a afrontarlos. También integro inteligencia artificial en mi flujo de trabajo con herramientas como Cursor, Antigravity y Claude Code."
     },
     "experience-2": {
         "title": "Desarrollador Backend",
@@ -29,7 +29,9 @@
         "tec-back": "Tengo experiencia en construir aplicaciones y sistemas del lado del servidor utilizando:",
         "tec-database": "También tengo experiencia en bases de datos utilizando:",
         "tec-cloud": "Habilidades en la nube:",
-        "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:"
+        "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:",
+        "tec-ai": "IA y asistentes de código:",
+        "tec-ai-desc": "Uso IA de forma consciente para acelerar iteraciones, explorar soluciones, documentar y revisar código; siempre validando, probando y entendiendo lo que integro al proyecto."
     },
     "contact": {
         "text": "Puedes conocer más sobre mí y ponerte en contacto conmigo a través de las siguientes plataformas:"

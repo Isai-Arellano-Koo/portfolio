@@ -133,6 +133,22 @@ const Experience = () => {
             </span>
           </div>
         </div>
+        <div className="max-w-3xl mb-10 mr-5">
+          <p className="text-xl text-green">{t("experience.tec-ai")}</p>
+          <p className="mt-4 max-w-3xl text-lg text-color-links">
+            {t("experience.tec-ai-desc")}
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            {["Cursor", "Antigravity", "Claude Code"].map((tool) => (
+              <span
+                key={tool}
+                className="rounded-md border border-green/35 bg-blue-primary/40 px-4 py-2 font-mono text-sm text-color-links transition-colors hover:border-green hover:text-green"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
         <div className="max-w-3xl mr-5">
           <p className="text-xl text-green">Extras:</p>
           <div className="mt-14 flex flex-wrap items-center gap-x-14 gap-y-10">
