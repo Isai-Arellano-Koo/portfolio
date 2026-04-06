@@ -16,6 +16,9 @@ import AngularSVG from "../IconosSVG/frontendIcons/AngularSVG";
 import GithubSVG from "../IconosSVG/extraIcons/GithubSVG";
 import NotionSVG from "../IconosSVG/extraIcons/NotionSVG";
 import Phyton from "../IconosSVG/backendIcons/Phyton";
+import JavaSVG from "../IconosSVG/backendIcons/JavaSVG";
+import AWSSVG from "../IconosSVG/backendIcons/AWSSVG";
+import PHPSVG from "../IconosSVG/backendIcons/PHPSVG";
 
 const Experience = () => {
   const [t, i18n] = useTranslation("global");
@@ -40,88 +43,105 @@ const Experience = () => {
 
         <div className="max-w-4xl mr-5 mb-10">
           <p className="text-xl text-green">{t("experience.tec-back")}</p>
-          <div className="flex gap-24 mt-14 flex-wrap">
-            <span className="text-center max-w-10">
+          <div className="mt-14 flex flex-wrap gap-x-16 gap-y-10">
+            <span className="flex max-w-28 flex-col items-center gap-2 text-center transition-colors hover:text-green">
               <JavaScriptSVG />
               JavaScript
             </span>
-            <span className="text-center max-w-28">
+            <span className="flex max-w-28 flex-col items-center gap-2 text-center transition-colors hover:text-green">
               <NodeSVG />
               Node.js
             </span>
-            <span className="text-center max-w-14">
+            <span className="flex max-w-20 flex-col items-center gap-2 text-center transition-colors hover:text-green">
               <ExpressSVG />
               Express
             </span>
-            <span className="text-center max-w-10">
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
               <SequelizeSVG />
               Sequelize
             </span>
-            <span className="flex flex-col items-center max-w-22 text-center">
-              {<JWTSVG />}
+            <span className="flex max-w-28 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <JWTSVG />
               Json Web Token
             </span>
-            <span className="text-center max-w-10">
-              {<Cloudinary />}
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <Cloudinary />
               Cloudinary
             </span>
-            <span className="text-center max-w-10">
-              {<Phyton />}
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <Phyton />
               Phyton
+            </span>
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <JavaSVG />
+              Java
+            </span>
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <PHPSVG />
+              PHP
             </span>
           </div>
         </div>
         <div className=" max-w-3xl mr-5 mb-10">
           <p className="text-xl text-green">{t("experience.tec-database")}</p>
-          <div className="mt-14 flex flex-wrap gap-24">
-            <span className="text-center max-w-10">
-              {<PostgresSVG />}
+          <div className="mt-14 flex flex-wrap gap-x-16 gap-y-10">
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <PostgresSVG />
               Postgres
             </span>
-            <span className="flex flex-col items-center max-w-10">
-              {<MySqlSVG />}
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <MySqlSVG />
               MySql
             </span>
-            <span className="text-center max-w-10">
-              {<GraphqlSVG />}
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <GraphqlSVG />
               Graphql
             </span>
-            <span className="flex flex-col items-center max-w-10">
-              {<MongoDBSVG />}
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <MongoDBSVG />
               MongoDB
+            </span>
+          </div>
+        </div>
+        <div className="max-w-3xl mb-10 mr-5">
+          <p className="text-xl text-green">{t("experience.tec-cloud")}</p>
+          <div className="mt-14 flex flex-wrap gap-x-16 gap-y-10">
+            <span className="flex max-w-24 flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <AWSSVG />
+              AWS
             </span>
           </div>
         </div>
         <div className="max-w-3xl mb-10">
           <p className="text-xl text-green">{t("experience.tec-front")}</p>
-          <div className="flex flex-wrap gap-14 items-center mt-14">
-            <span className="text-center">
-              {<ReactSVG />}
+          <div className="mt-14 flex flex-wrap items-center gap-x-14 gap-y-10">
+            <span className="flex flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <ReactSVG />
               React Js
             </span>
-            <span className="text-center">
-              {<AngularSVG />}
+            <span className="flex flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <AngularSVG />
               Angular
             </span>
-            <span className="text-center">
-              {<ReduxSVG />}
+            <span className="flex flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <ReduxSVG />
               Redux
             </span>
-            <span className="flex flex-col items-center">
-              {<TailwindSVG />}
+            <span className="flex flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <TailwindSVG />
               Tailwind CSS
             </span>
           </div>
         </div>
         <div className="max-w-3xl mr-5">
           <p className="text-xl text-green">Extras:</p>
-          <div className="flex flex-wrap gap-14 items-center mt-14">
-            <span className="flex flex-col items-center">
-              {<GithubSVG />}
+          <div className="mt-14 flex flex-wrap items-center gap-x-14 gap-y-10">
+            <span className="flex flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <GithubSVG />
               Github - Github Flow
             </span>
-            <span className="text-center">
-              {<NotionSVG />}
+            <span className="flex flex-col items-center gap-2 text-center transition-colors hover:text-green">
+              <NotionSVG />
               Notion
             </span>
           </div>

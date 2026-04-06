@@ -3,7 +3,9 @@
         "about-me": "Acerca de mí",
         "experience": "Experiencia",
         "projects": "Proyectos",
-        "contact": "Contáctame"
+        "contact": "Contáctame",
+        "open-menu": "Abrir menú",
+        "close-menu": "Cerrar menú"
     },
     "header": {
         "hello": "Hola!, soy",
@@ -26,6 +28,7 @@
         "description2": "Como desarrollador siempre trato de asegurarme de mantener un entorno que ofrezca una excelente experiencia al usuario y, sobre todo, sea seguro.",
         "tec-back": "Tengo experiencia en construir aplicaciones y sistemas del lado del servidor utilizando:",
         "tec-database": "También tengo experiencia en bases de datos utilizando:",
+        "tec-cloud": "Habilidades en la nube:",
         "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:"
     },
     "contact": {

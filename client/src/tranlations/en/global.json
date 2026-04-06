@@ -3,7 +3,9 @@
     "about-me": "About me",
     "experience": "Experience",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "open-menu": "Open menu",
+    "close-menu": "Close menu"
   },
   "header": {
     "hello": "Hello, My name is",
@@ -26,6 +28,7 @@
     "description2": "As a developer, I always strive to maintain an environment that offers an excellent user experience and, above all, is secure.",
     "tec-back": "I have experience building server-side applications and systems using:",
     "tec-database": "I also have experience with databases using:",
+    "tec-cloud": "Cloud skills:",
     "tec-front": "I'm also familiar with client-side development technologies and frameworks:"
   },
   "contact": {

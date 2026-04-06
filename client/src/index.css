@@ -8,3 +8,30 @@ html {
     background-color: #0a192f;
     scroll-behavior: smooth;
 }
+
+::selection {
+    background-color: rgba(100, 255, 218, 0.2);
+    color: #e6f1ff;
+}
+
+@keyframes typewriter-cursor-blink {
+    0%,
+    49% {
+        opacity: 1;
+    }
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.typewriter-cursor {
+    display: inline-block;
+    width: 0.12em;
+    min-width: 3px;
+    height: 0.85em;
+    margin-left: 0.08em;
+    vertical-align: -0.06em;
+    background-color: #64ffda;
+    animation: typewriter-cursor-blink 1s steps(1, end) infinite;
+}

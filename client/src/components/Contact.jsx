@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="my-4">
           <a
             target="_blank"
-            className="text-8xl hover:text-green"
+            className="text-8xl transition-colors duration-200 hover:text-green"
             href="https://github.com/Isai-Arellano-Koo"
           >
             <FaGithub />
@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="my-4">
           <a
             target="_blank"
-            className="text-8xl hover:text-green"
+            className="text-8xl transition-colors duration-200 hover:text-green"
             href="https://www.linkedin.com/in/isai-arellano/"
           >
             <FaLinkedin />
@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="my-4">
           <a
             target="_blank"
-            className="text-8xl hover:text-green"
+            className="text-8xl transition-colors duration-200 hover:text-green"
             href="mailto:arko.isai19@gmail.com"
           >
             <FaEnvelope />
