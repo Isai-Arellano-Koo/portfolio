@@ -2,35 +2,64 @@ import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const FULL_NAME = "Isai Arellano Koo";
+const FULL_ROLE = "Full Stack Developer";
 
 const Home = () => {
   const [t, i18n] = useTranslation("global");
   const [displayedName, setDisplayedName] = useState("");
-  const timeoutRef = useRef(null);
+  const [displayedRole, setDisplayedRole] = useState("");
+  const [activeLine, setActiveLine] = useState("name");
+  const timeoutRefs = useRef([]);
 
   useEffect(() => {
-    let index = 0;
     let cancelled = false;
 
-    const typeNext = () => {
-      if (cancelled || index >= FULL_NAME.length) return;
-      const char = FULL_NAME[index];
-      const delay = char === " " ? 130 : 45 + Math.random() * 75;
-      timeoutRef.current = window.setTimeout(() => {
-        if (cancelled) return;
-        index += 1;
-        setDisplayedName(FULL_NAME.slice(0, index));
-        typeNext();
+    const schedule = (fn, delay) => {
+      const id = window.setTimeout(() => {
+        if (!cancelled) fn();
       }, delay);
+      timeoutRefs.current.push(id);
     };
 
-    typeNext();
+    const typeText = (text, setter, onDone) => {
+      let index = 0;
+      const typeNext = () => {
+        if (cancelled || index >= text.length) {
+          if (!cancelled && onDone) onDone();
+          return;
+        }
+        const char = text[index];
+        const delay = char === " " ? 130 : 45 + Math.random() * 75;
+        schedule(() => {
+          index += 1;
+          setter(text.slice(0, index));
+          typeNext();
+        }, delay);
+      };
+      typeNext();
+    };
+
+    const startLoop = () => {
+      setDisplayedName("");
+      setDisplayedRole("");
+      setActiveLine("name");
+      typeText(FULL_NAME, setDisplayedName, () => {
+        schedule(() => {
+          setActiveLine("role");
+          typeText(FULL_ROLE, setDisplayedRole, () => {
+            // Pause once both lines are fully written, then restart.
+            schedule(startLoop, 3500);
+          });
+        }, 450);
+      });
+    };
+
+    startLoop();
 
     return () => {
       cancelled = true;
-      if (timeoutRef.current !== null) {
-        window.clearTimeout(timeoutRef.current);
-      }
+      timeoutRefs.current.forEach((id) => window.clearTimeout(id));
+      timeoutRefs.current = [];
     };
   }, []);
 
@@ -57,10 +86,18 @@ const Home = () => {
           aria-label={FULL_NAME}
         >
           <span aria-hidden="true">{displayedName}</span>
-          <span className="typewriter-cursor" aria-hidden="true" />
+          {activeLine === "name" && (
+            <span className="typewriter-cursor" aria-hidden="true" />
+          )}
         </h1>
-        <h3 className=" text-3xl md:text-5xl mt-2 text-color-links font-viet">
-          Full Stack Developer
+        <h3
+          className=" text-3xl md:text-5xl mt-2 text-color-links font-viet min-h-[2.25rem] md:min-h-[3.25rem]"
+          aria-label={FULL_ROLE}
+        >
+          <span aria-hidden="true">{displayedRole}</span>
+          {activeLine === "role" && (
+            <span className="typewriter-cursor" aria-hidden="true" />
+          )}
         </h3>
         <p className="mt-20 font-viet text-xl md:text-2xl max-w-4xl text-color-links">
           {t("header.background")}
