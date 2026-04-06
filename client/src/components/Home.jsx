@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const FULL_NAME = "Isai Arellano Koo";
-const FULL_ROLE = "Full Stack Developer";
+const FULL_ROLE = "Developer";
 
 const Home = () => {
   const [t, i18n] = useTranslation("global");
