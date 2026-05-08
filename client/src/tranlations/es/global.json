@@ -7,27 +7,41 @@
     },
     "header": {
         "hello": "Hola!, soy",
-        "background": "Soy de Perú y disfruto programar y todo lo relacionado con el mundo tecnológico. Siempre estoy en constante aprendizaje, explorando todo lo que pueda sumar para mi desarrollo en el maravilloso mundo de la programacion.",
+        "background": "Desarrollador Full Stack enfocado en construir soluciones web escalables y centradas en el usuario. Trabajo en backend y frontend, diseñando APIs REST, interfaces dinámicas y modelos de datos, con una mentalidad de calidad y mejora continua.",
         "buttoms": {
             "download": "Descarga mi CV",
             "view": "Mira mi CV"
         }
     },
     "about": {
-        "about-text": "Estudié desarrollo full-stack en SoyHenry, con más de 800 horas de curso, aprendiendo a dominar diferentes tecnologías tanto en el frontend como en el backend. Además, soy autodidacta y estoy en constante aprendizaje. Trabajé como autónomo en una startup, liderando el equipo técnico. Siempre estoy dispuesto a enfrentar los desafíos que se presenten."
+        "about-text": "Soy Desarrollador Full Stack con experiencia en desarrollo backend y frontend, participando en proyectos web enfocados en soluciones escalables y centradas en el usuario. Manejo tecnologías como Java, TypeScript, Python y C#, además de frameworks modernos para el desarrollo de aplicaciones completas. He trabajado en proyectos colaborativos con metodología ágil, participando en el desarrollo de APIs, interfaces web y bases de datos."
     },
     "experience": {
-        "title-moru": "Líder de proyecto y Desarrollador en MoruApp",
-        "description1": "Como líder de proyecto, mi rol consiste en liderar y facilitar la comunicación entre equipos, además de asignar tareas y establecer objetivos claros.",
-        "description2": "Como desarrollador, mi principal tarea es brindar apoyo a quienes lo necesiten. Siempre me aseguro de mantener un entorno que ofrezca una excelente experiencia al usuario y, sobre todo, sea seguro.",
+        "title-moru": "Desarrollador Full Stack en Moru App (Remoto) | Sep 2023 - May 2024",
+        "description1": "Participé en el desarrollo de MoruApp, una plataforma que simplifica la compra y venta de productos en diferentes ubicaciones de Colombia, con funcionalidades como geolocalización, gestión de usuarios y empresas, y reseñas.",
+        "description2": "Contribuí en la construcción de APIs REST, desarrollo de interfaces web y gestión de base de datos. Trabajé bajo metodología Scrum y apoyé en la organización de tareas y coordinación técnica dentro del equipo backend.",
         "tec-back": "Tengo experiencia en construir aplicaciones y sistemas del lado del servidor utilizando:",
+        "tec-cloud": "Cloud e infraestructura:",
         "tec-database": "También tengo experiencia en bases de datos utilizando:",
-        "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:"
+        "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:",
+        "tec-extras": "Herramientas y flujo de trabajo:"
     },
     "contact": {
         "text": "Puedes conocer más sobre mí y ponerte en contacto conmigo a través de las siguientes plataformas:"
       },
+    "projects": {
+        "readMore": "Leer más",
+        "readLess": "Leer menos"
+    },
     "projectsES": [
+      {
+        "id": "859f4a12-e4aa-4252-b54f-9effe4fa53dd",
+        "name": "Creador y Gestor de Formatos",
+        "image": "/formats-manager.png",
+        "description": "Aplicación web para crear, editar y gestionar formatos personalizados en una interfaz tipo hoja de cálculo. Incluye organización por carpetas, control de versiones, exportación de formatos y un flujo pensado para equipos que necesitan estandarizar procesos operativos de forma rápida.",
+        "urlDeploy": "#",
+        "urlGitHub": null
+      },
       {
         "id": "97146066-e609-4784-9f7c-19b5617bb938",
         "name": "Moru App",

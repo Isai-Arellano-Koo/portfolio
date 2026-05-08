@@ -7,27 +7,41 @@
     },
     "header": {
         "hello": "Hello, My name is",
-        "background": "I'm from Peru and I enjoy coding and everything related to the world of technology. I'm always learning, exploring everything that can contribute to my development in the wonderful world of programming.",
+        "background": "I’m a Full Stack Developer focused on building scalable, user-centered web solutions. I work across backend and frontend, designing REST APIs, dynamic interfaces, and data models, with a quality-first mindset and continuous improvement.",
         "buttoms": {
             "download": "Download my CV",
             "view": "View my CV"
         }
         }, 
     "about": {
-        "about-text": "I studied full-stack development at SoyHenry, completing over 800 hours of coursework where I learned to master various technologies both on the frontend and backend. Additionally, I'm self-taught and constantly learning. I worked as a freelancer at a startup, leading the technical team. I'm always ready to take on the challenges that come my way."
+        "about-text": "I am a Full Stack Developer with backend and frontend experience, working on web projects focused on scalable and user-centered solutions. I work with technologies such as Java, TypeScript, Python, and C#, along with modern frameworks to build complete applications. I have worked on collaborative projects using agile methodologies, contributing to APIs, web interfaces, and database development."
     },
     "experience": {
-        "title-moru": "Project leader and Developer at MoruApp",
-        "description1": "As a project leader, my role involves leading and facilitating communication between teams, as well as assigning tasks and setting clear objectives.",
-        "description2": "As a developer, my main task is to provide support to those in need. I always ensure to maintain an environment that offers an excellent user experience and, above all, is secure.",
+        "title-moru": "Full Stack Developer at Moru App (Remote) | Sep 2023 - May 2024",
+        "description1": "I contributed to the development of MoruApp, a platform that streamlines buying and selling products across different locations in Colombia, including features such as geolocation, user and business management, and reviews.",
+        "description2": "I contributed to building REST APIs, developing web interfaces, and managing database tasks. I worked under Scrum methodology and supported task organization and technical coordination within the backend team.",
         "tec-back": "I have experience in building server-side applications and systems using:",
+        "tec-cloud": "Cloud and infrastructure:",
         "tec-database": "Also, I have experience in databases using:",
-        "tec-front": "I'm also familiar with technologies and frameworks for client-side development:"
+        "tec-front": "I'm also familiar with technologies and frameworks for client-side development:",
+        "tec-extras": "Tools and workflow:"
     },
     "contact": {
       "text": "You can check out more about me and reach out to me through the following platforms:"
     },
+    "projects": {
+        "readMore": "Read more",
+        "readLess": "Read less"
+    },
     "projectsEN": [
+        {
+            "id": "859f4a12-e4aa-4252-b54f-9effe4fa53dd",
+            "name": "Format Builder & Manager",
+            "image": "/formats-manager.png",
+            "description": "Web application to create, edit, and manage custom formats through a spreadsheet-like interface. It includes folder organization, version control, and export features, with a workflow designed for teams that need to standardize operational processes quickly.",
+            "urlDeploy": "#",
+            "urlGitHub": null
+          },
         {
             "id": "97146066-e609-4784-9f7c-19b5617bb938",
             "name": "Moru App",
