@@ -42,7 +42,7 @@
         "image": "/formats-manager.png",
         "description": "Aplicación web para crear, editar y gestionar formatos personalizados en una interfaz tipo hoja de cálculo. Incluye organización por carpetas, control de versiones, exportación de formatos y un flujo pensado para equipos que necesitan estandarizar procesos operativos de forma rápida.",
         "urlDeploy": "https://systemformatscdm-production.up.railway.app/records/a7c182f0-802f-49f7-9764-f32284dd041c",
-        "urlGitHub": null
+        "urlGitHub": "https://github.com/Isai-Arellano-Koo/system_formats_cdm"
       },
       {
         "id": "97146066-e609-4784-9f7c-19b5617bb938",
