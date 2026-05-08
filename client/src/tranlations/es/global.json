@@ -24,6 +24,8 @@
         "tec-cloud": "Cloud e infraestructura:",
         "tec-database": "También tengo experiencia en bases de datos utilizando:",
         "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:",
+        "tec-ai": "IA y asistentes de código:",
+        "tec-ai-desc": "Uso IA de forma consciente para acelerar iteraciones, explorar soluciones, documentar y revisar código; siempre validando, probando y entendiendo lo que integro al proyecto.",
         "tec-extras": "Herramientas y flujo de trabajo:"
     },
     "contact": {
@@ -39,7 +41,7 @@
         "name": "Creador y Gestor de Formatos",
         "image": "/formats-manager.png",
         "description": "Aplicación web para crear, editar y gestionar formatos personalizados en una interfaz tipo hoja de cálculo. Incluye organización por carpetas, control de versiones, exportación de formatos y un flujo pensado para equipos que necesitan estandarizar procesos operativos de forma rápida.",
-        "urlDeploy": "#",
+        "urlDeploy": "https://systemformatscdm-production.up.railway.app/records/a7c182f0-802f-49f7-9764-f32284dd041c",
         "urlGitHub": null
       },
       {

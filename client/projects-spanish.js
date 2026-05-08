@@ -8,6 +8,18 @@ export const projects = [
       urlGitHub: null
     },
     {
+      id: "bb3e1459-999f-4fc4-9257-c6e7b15c3b99",
+      name: "Bookifa",
+      image: "../public/image/bookifa.jpeg",
+      description: `Bookifa es una aplicación de biblioteca virtual que permite a los usuarios explorar un amplio y organizado catálogo de libros de manera intuitiva y eficiente. La plataforma cuenta con un sistema de roles, mediante el cual los usuarios autorizados pueden publicar, actualizar y eliminar libros, garantizando una correcta gestión del contenido. 
+      
+      Además, Bookifa incorpora un carrito de compras, que permite a los usuarios seleccionar y gestionar los libros de su interés antes de completar una adquisición. Para mejorar el rendimiento y la experiencia del usuario, la aplicación utiliza técnicas como lazy loading, lo que optimiza la carga de contenido al mostrar únicamente los elementos necesarios en cada momento. 
+      
+      La aplicación está diseñada con un enfoque en la usabilidad, el rendimiento y la seguridad, ofreciendo una experiencia fluida tanto para usuarios finales como para administradores del sistema.`,
+      urlDeploy: "https://books-isil-isai.netlify.app/",
+      urlGitHub: "https://github.com/Isai-Arellano-Koo/books_isil"
+    },
+    {
       id: "c22571a0-88dc-4e51-ac1c-65aee957676a",
       name: "Crypto Quote",
       image: "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",

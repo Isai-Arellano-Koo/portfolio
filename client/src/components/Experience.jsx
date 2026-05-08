@@ -143,6 +143,23 @@ const Experience = () => {
         </div>
 
         <div>
+          <SectionLabel>{t("experience.tec-ai")}</SectionLabel>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-color-links/90 sm:text-lg">
+            {t("experience.tec-ai-desc")}
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {["Cursor", "Antigravity", "Claude Code"].map((tool) => (
+              <span
+                key={tool}
+                className="rounded-md border border-green/35 bg-blue-primary/40 px-4 py-2 font-mono text-sm text-color-links transition-colors hover:border-green hover:text-green"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div>
           <SectionLabel>{t("experience.tec-extras")}</SectionLabel>
           <SkillGrid>
             <SkillTile label="Github - Github Flow">
