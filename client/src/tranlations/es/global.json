@@ -53,6 +53,14 @@
         "urlGitHub": null
       },
       {
+        "id": "bb3e1459-999f-4fc4-9257-c6e7b15c3b99",
+        "name": "Bookifa",
+        "image": "/image/bokifa.png",
+        "description": "Bokifa es una librería virtual con inicio de sesión, filtros por categorías, ordenación y paginación del catálogo, y CRUD completo de libros para usuarios autorizados. Incluye favoritos y carrito de compras para gestionar los títulos de interés. La aplicación utiliza lazy loading para optimizar la carga del contenido.",
+        "urlDeploy": "https://books-isil-isai.netlify.app/tiendaadmin",
+        "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
+      },
+      {
         "id": "c22571a0-88dc-4e51-ac1c-65aee957676a",
         "name": "Cotizador de Criptomonedas",
         "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",
