@@ -27,14 +27,14 @@ export const projects = [
       urlDeploy: "https://cotizador-cripto-iak.netlify.app",
       urlGitHub: "https://github.com/Isai-Arellano-Koo/cotizador-crypto"
     },
-    {
-      id: "be74a8a0-502f-415b-9e71-73de8ae53128",
-      name: "Pokemon",
-      image: "https://res.cloudinary.com/isaiarellano/image/upload/v1699043078/projects%20image/project2_sljjiu.webp",
-      description: "Este proyecto Pokémon es una aplicación web que utiliza ReactJS, Redux y Vite en el frontend, junto con Node, Express y Sequelize en el backend. Se conecta a la PokeAPI para mostrar información detallada sobre Pokémon y permite la creación de nuevos Pokémon con validaciones en tiempo real. La base de datos PostgreSQL almacena los datos y los estilos visuales se implementan utilizando módulos CSS, proporcionando una experiencia de usuario atractiva y eficiente.",
-      urlDeploy: "https://pi-pokemon-isai.vercel.app/",
-      urlGitHub: "https://github.com/Isai-Arellano-Koo/Pokemon-PI"
-    },
+    // {
+    //   id: "be74a8a0-502f-415b-9e71-73de8ae53128",
+    //   name: "Pokemon",
+    //   image: "https://res.cloudinary.com/isaiarellano/image/upload/v1699043078/projects%20image/project2_sljjiu.webp",
+    //   description: "Este proyecto Pokémon es una aplicación web que utiliza ReactJS, Redux y Vite en el frontend, junto con Node, Express y Sequelize en el backend. Se conecta a la PokeAPI para mostrar información detallada sobre Pokémon y permite la creación de nuevos Pokémon con validaciones en tiempo real. La base de datos PostgreSQL almacena los datos y los estilos visuales se implementan utilizando módulos CSS, proporcionando una experiencia de usuario atractiva y eficiente.",
+    //   urlDeploy: "https://pi-pokemon-isai.vercel.app/",
+    //   urlGitHub: "https://github.com/Isai-Arellano-Koo/Pokemon-PI"
+    // },
     {
       id: "c6a3acd5-0995-4709-abeb-a701a9712c41",
       name: "Budget Tracker",
