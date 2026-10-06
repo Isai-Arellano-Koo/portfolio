@@ -1,23 +1,9 @@
 import { useTranslation } from "react-i18next";
-import { SiAmazonaws, SiOpenjdk, SiPhp } from "react-icons/si";
-import { SiSpringboot } from "react-icons/si";
-import { TbBrandCSharp } from "react-icons/tb";
-import ExpressSVG from "../IconosSVG/backendIcons/ExpressSVG";
+import { SiAmazonaws, SiOpenjdk, SiSpringboot, SiTypescript } from "react-icons/si";
 import JavaScriptSVG from "../IconosSVG/backendIcons/JavaScriptSVG";
 import NodeSVG from "../IconosSVG/backendIcons/NodeSVG";
-import SequelizeSVG from "../IconosSVG/backendIcons/SequelizeSVG";
-import JWTSVG from "../IconosSVG/backendIcons/JWTSVG";
-import Cloudinary from "../IconosSVG/backendIcons/Cloudinary";
-import PostgresSVG from "../IconosSVG/databaseIcons/PostgresSVG";
-import MySqlSVG from "../IconosSVG/databaseIcons/MySqlSVG";
-import GraphqlSVG from "../IconosSVG/databaseIcons/GraphqlSVG";
-import MongoDBSVG from "../IconosSVG/databaseIcons/MongoDBSVG";
 import ReactSVG from "../IconosSVG/frontendIcons/ReactSVG";
-import ReduxSVG from "../IconosSVG/frontendIcons/ReduxSVG";
-import TailwindSVG from "../IconosSVG/frontendIcons/TailwindSVG";
 import AngularSVG from "../IconosSVG/frontendIcons/AngularSVG";
-import GithubSVG from "../IconosSVG/extraIcons/GithubSVG";
-import NotionSVG from "../IconosSVG/extraIcons/NotionSVG";
 
 const SkillTile = ({ children, label }) => (
   <div className="group flex w-[7.25rem] flex-col items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-4 transition-all duration-300 hover:border-green/35 hover:bg-white/[0.04] hover:shadow-glow-sm sm:w-[7.5rem]">
@@ -67,14 +53,11 @@ const Experience = () => {
             <SkillTile label="JavaScript">
               <JavaScriptSVG />
             </SkillTile>
+            <SkillTile label="TypeScript">
+              <SiTypescript className="h-14 w-14 text-[#3178C6]" aria-hidden />
+            </SkillTile>
             <SkillTile label="Java">
               <SiOpenjdk className="h-14 w-14 text-[#f89820]" aria-hidden />
-            </SkillTile>
-            <SkillTile label="C#">
-              <TbBrandCSharp className="h-14 w-14 text-[#9B4DCA]" aria-hidden />
-            </SkillTile>
-            <SkillTile label="PHP">
-              <SiPhp className="h-14 w-14 text-[#777BB4]" aria-hidden />
             </SkillTile>
             <SkillTile label="Spring Boot">
               <SiSpringboot className="h-14 w-14 text-[#6DB33F]" aria-hidden />
@@ -82,17 +65,17 @@ const Experience = () => {
             <SkillTile label="Node.js">
               <NodeSVG />
             </SkillTile>
-            <SkillTile label="Express">
-              <ExpressSVG />
+          </SkillGrid>
+        </div>
+
+        <div>
+          <SectionLabel>{t("experience.tec-front")}</SectionLabel>
+          <SkillGrid>
+            <SkillTile label="React">
+              <ReactSVG />
             </SkillTile>
-            <SkillTile label="Sequelize">
-              <SequelizeSVG />
-            </SkillTile>
-            <SkillTile label="Json Web Token">
-              <JWTSVG />
-            </SkillTile>
-            <SkillTile label="Cloudinary">
-              <Cloudinary />
+            <SkillTile label="Angular">
+              <AngularSVG />
             </SkillTile>
           </SkillGrid>
         </div>
@@ -107,48 +90,12 @@ const Experience = () => {
         </div>
 
         <div>
-          <SectionLabel>{t("experience.tec-database")}</SectionLabel>
-          <SkillGrid>
-            <SkillTile label="Postgres">
-              <PostgresSVG />
-            </SkillTile>
-            <SkillTile label="MySql">
-              <MySqlSVG />
-            </SkillTile>
-            <SkillTile label="Graphql">
-              <GraphqlSVG />
-            </SkillTile>
-            <SkillTile label="MongoDB">
-              <MongoDBSVG />
-            </SkillTile>
-          </SkillGrid>
-        </div>
-
-        <div>
-          <SectionLabel>{t("experience.tec-front")}</SectionLabel>
-          <SkillGrid>
-            <SkillTile label="React Js">
-              <ReactSVG />
-            </SkillTile>
-            <SkillTile label="Angular">
-              <AngularSVG />
-            </SkillTile>
-            <SkillTile label="Redux">
-              <ReduxSVG />
-            </SkillTile>
-            <SkillTile label="Tailwind CSS">
-              <TailwindSVG />
-            </SkillTile>
-          </SkillGrid>
-        </div>
-
-        <div>
           <SectionLabel>{t("experience.tec-ai")}</SectionLabel>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-color-links/90 sm:text-lg">
             {t("experience.tec-ai-desc")}
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            {["Cursor", "Antigravity", "Claude Code"].map((tool) => (
+            {["Cursor"].map((tool) => (
               <span
                 key={tool}
                 className="rounded-md border border-green/35 bg-blue-primary/40 px-4 py-2 font-mono text-sm text-color-links transition-colors hover:border-green hover:text-green"
@@ -159,17 +106,6 @@ const Experience = () => {
           </div>
         </div>
 
-        <div>
-          <SectionLabel>{t("experience.tec-extras")}</SectionLabel>
-          <SkillGrid>
-            <SkillTile label="Github - Github Flow">
-              <GithubSVG />
-            </SkillTile>
-            <SkillTile label="Notion">
-              <NotionSVG />
-            </SkillTile>
-          </SkillGrid>
-        </div>
       </div>
     </div>
   );

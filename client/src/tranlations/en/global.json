@@ -16,7 +16,7 @@
     }
   },
   "about": {
-    "about-text": "I am a web developer and currently studying at ISIL, where I continue to strengthen my skills in full-stack development. I consider myself self-taught and am always learning. I worked at a startup, contributing to the technical development of the project. I enjoy challenges and am always ready to take them on. I also integrate artificial intelligence into my workflow with tools such as Cursor, Antigravity, and Claude Code."
+    "about-text": "I am a web developer and currently studying at ISIL, where I continue to strengthen my skills in full-stack development. I consider myself self-taught and am always learning. I worked at a startup, contributing to the technical development of the project. I enjoy challenges and am always ready to take them on. I also integrate artificial intelligence into my workflow with Cursor."
   },
   "experience-2": {
     "title": "Backend Developer",
@@ -29,7 +29,7 @@
     "tec-back": "I have experience building server-side applications and systems using:",
     "tec-database": "I also have experience with databases using:",
     "tec-cloud": "Cloud skills:",
-    "tec-front": "I'm also familiar with client-side development technologies and frameworks:",
+    "tec-front": "I also have experience with client-side development using:",
     "tec-ai": "AI and coding assistants:",
     "tec-ai-desc": "I use AI thoughtfully to speed up iteration, explore options, document, and review code—always validating, testing, and understanding what I ship."
   },
@@ -60,22 +60,6 @@
       "description": "Bokifa is a virtual library and bookstore with user login, category filters, and a sortable, paginated catalog. Authorized users get full CRUD for books; shoppers can save titles to favorites and add them to a shopping cart. The app uses lazy loading to keep the UI responsive while browsing larger catalogs.",
       "urlDeploy": "https://books-isil-isai.netlify.app/tiendaadmin",
       "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
-    },
-    {
-      "id": "c22571a0-88dc-4e51-ac1c-65aee957676a",
-      "name": "Crypto Quote",
-      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",
-      "description": "This cryptocurrency quoting app connects to the CryptoCompare API to provide real-time cryptocurrency value quotes. It allows users to compare these values with various fiat currencies, such as the Peruvian Sol, the US Dollar, Mexican Pesos, and more. Stay updated on cryptocurrency prices in different countries with ease.",
-      "urlDeploy": "https://cotizador-cripto-iak.netlify.app",
-      "urlGitHub": "https://github.com/Isai-Arellano-Koo/cotizador-crypto"
-    },
-    {
-      "id": "c6a3acd5-0995-4709-abeb-a701a9712c41",
-      "name": "Budget Tracker",
-      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043076/projects%20image/project3_xdo5wy.webp",
-      "description": "This React project is a budget manager that features a pie chart for easy visualization of your remaining budget. It allows you to add budgets, expenses, and categories, and it uses localStorage to store the data. A handy tool for managing your personal finances.",
-      "urlDeploy": "https://control-presupuestos-react-iak.netlify.app",
-      "urlGitHub": "https://github.com/Isai-Arellano-Koo/control-presupuesto-react"
     }
   ]
 }

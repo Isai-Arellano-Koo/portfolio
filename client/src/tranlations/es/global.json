@@ -14,7 +14,7 @@
         }
     },
     "about": {
-        "about-text": "Soy Desarrollador Full Stack con experiencia en desarrollo backend y frontend, participando en proyectos web enfocados en soluciones escalables y centradas en el usuario. Manejo tecnologías como Java, TypeScript, Python y C#, además de frameworks modernos para el desarrollo de aplicaciones completas. He trabajado en proyectos colaborativos con metodología ágil, participando en el desarrollo de APIs, interfaces web y bases de datos."
+        "about-text": "Soy Desarrollador Full Stack con experiencia en desarrollo backend y frontend, participando en proyectos web enfocados en soluciones escalables y centradas en el usuario. Manejo JavaScript, TypeScript y Java, con Spring Boot y Node.js en el backend, React y Angular en el frontend, y AWS. He trabajado en proyectos colaborativos con metodología ágil, participando en el desarrollo de APIs, interfaces web y bases de datos."
     },
     "experience": {
         "title-moru": "Desarrollador Full Stack en Moru App (Remoto) | Sep 2023 - May 2024",
@@ -23,7 +23,7 @@
         "tec-back": "Tengo experiencia en construir aplicaciones y sistemas del lado del servidor utilizando:",
         "tec-cloud": "Cloud e infraestructura:",
         "tec-database": "También tengo experiencia en bases de datos utilizando:",
-        "tec-front": "También estoy familiarizado con tecnologías y frameworks para el desarrollo del lado del cliente:",
+        "tec-front": "También tengo experiencia en el desarrollo del lado del cliente con:",
         "tec-ai": "IA y asistentes de código:",
         "tec-ai-desc": "Uso IA de forma consciente para acelerar iteraciones, explorar soluciones, documentar y revisar código; siempre validando, probando y entendiendo lo que integro al proyecto.",
         "tec-extras": "Herramientas y flujo de trabajo:"
@@ -59,22 +59,6 @@
         "description": "Bokifa es una librería virtual con inicio de sesión, filtros por categorías, ordenación y paginación del catálogo, y CRUD completo de libros para usuarios autorizados. Incluye favoritos y carrito de compras para gestionar los títulos de interés. La aplicación utiliza lazy loading para optimizar la carga del contenido.",
         "urlDeploy": "https://books-isil-isai.netlify.app/tiendaadmin",
         "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
-      },
-      {
-        "id": "c22571a0-88dc-4e51-ac1c-65aee957676a",
-        "name": "Cotizador de Criptomonedas",
-        "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043075/projects%20image/project_dwylg6.webp",
-        "description": "Esta aplicación de cotización de criptomonedas se conecta a la API de CryptoCompare para proporcionar cotizaciones de valor de criptomonedas en tiempo real. Permite a los usuarios comparar estos valores con varias monedas fiduciarias, como el Sol peruano, el Dólar estadounidense, los Pesos mexicanos, y más. Mantente actualizado sobre los precios de las criptomonedas en diferentes países con facilidad.",
-        "urlDeploy": "https://cotizador-cripto-iak.netlify.app",
-        "urlGitHub": "https://github.com/Isai-Arellano-Koo/cotizador-crypto"
-      },
-      {
-        "id": "c6a3acd5-0995-4709-abeb-a701a9712c41",
-        "name": "Control de Presupuesto",
-        "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699043076/projects%20image/project3_xdo5wy.webp",
-        "description": "Este proyecto de React es un administrador de presupuestos que cuenta con un gráfico circular para una visualización fácil de tu presupuesto restante. Te permite agregar presupuestos, gastos y categorías, y utiliza el localStorage para almacenar los datos. Una herramienta práctica para gestionar tus finanzas personales.",
-        "urlDeploy": "https://control-presupuestos-react-iak.netlify.app",
-        "urlGitHub": "https://github.com/Isai-Arellano-Koo/control-presupuesto-react"
       }
     ]
   }

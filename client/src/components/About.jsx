@@ -16,14 +16,12 @@ const About = () => {
           {t("about.about-text")}
         </p>
 
-        <div className="shrink-0 lg:mx-0">
-          <div className="relative rounded-2xl p-1 ring-1 ring-green/25 shadow-card shadow-green/5">
-            <img
-              className="max-w-[280px] rounded-[0.85rem] object-cover sm:max-w-xs"
-              src="https://res.cloudinary.com/isaiarellano/image/upload/v1772605784/Isa_ofhblz.jpg"
-              alt="Isai Arellano"
-            />
-          </div>
+        <div className="flex justify-center lg:shrink-0 lg:justify-start">
+          <img
+            className="max-w-[280px] rounded-2xl object-cover sm:max-w-xs"
+            src="/image/isai.png"
+            alt="Isai Arellano"
+          />
         </div>
       </div>
     </div>
