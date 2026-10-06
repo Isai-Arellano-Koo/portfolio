@@ -78,14 +78,14 @@ const Home = () => {
 
         <div className="mt-10 flex flex-wrap gap-4">
           <a
-            href="./CV_Isai_Arellano_Koo_2026.pdf"
+            href="./CV_ISAI_202602.pdf"
             download
             className="inline-flex items-center justify-center rounded-lg border border-green bg-green/5 px-5 py-3 font-mono text-sm text-green transition-all duration-200 hover:bg-green/10 hover:shadow-glow-sm hover:-translate-y-0.5"
           >
             {t("header.buttoms.download")}
           </a>
           <a
-            href="./CV_Isai_Arellano_Koo_2026.pdf"
+            href="./CV_ISAI_202602.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-lg border border-green/60 px-5 py-3 font-mono text-sm text-green transition-all duration-200 hover:border-green hover:bg-white/[0.03] hover:text-color-links"

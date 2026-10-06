@@ -13,14 +13,14 @@
   "header": {
     "hello": "Hello, I'm",
     "role": "Full Stack Developer",
-    "background": "Full Stack Developer focused on building scalable, user-centered web solutions. I work across backend and frontend, designing REST APIs, dynamic interfaces, and data models, with a mindset of quality and continuous improvement.",
+    "background": "Full Stack Developer. I work across backend and frontend, designing REST APIs, dynamic interfaces, and data models, with a mindset of quality and continuous improvement.",
     "buttoms": {
       "download": "Download my CV",
       "view": "View my CV"
     }
   },
   "about": {
-    "about-text": "I am a Full Stack Developer with experience in backend and frontend, working on web projects focused on scalable, user-centered solutions. I use JavaScript, TypeScript, and Java, with Spring Boot and Node.js on the backend, React and Angular on the frontend, and AWS. I have worked on collaborative projects using agile methods, building APIs, web interfaces, and databases. I am currently in my final term at ISIL."
+    "about-text": "I am a Full Stack Developer with experience in backend and frontend. I use JavaScript, TypeScript, and Java, with Spring Boot and Node.js on the backend, React and Angular on the frontend, and AWS. I have worked on collaborative projects using agile methods, building APIs, web interfaces, and databases. I am currently in my final term at ISIL."
   },
   "experience": {
     "title-moru": "Full Stack Developer at Moru App",
