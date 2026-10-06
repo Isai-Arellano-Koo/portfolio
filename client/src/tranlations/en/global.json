@@ -5,43 +5,48 @@
     "projects": "Projects",
     "contact": "Contact",
     "open-menu": "Open menu",
-    "close-menu": "Close menu"
+    "close-menu": "Close menu",
+    "navigation": "Navigation",
+    "close": "Close",
+    "language": "Language"
   },
   "header": {
-    "hello": "Hello, My name is",
-    "background": "I'm from Peru and I enjoy coding and everything related to the world of technology. I'm always learning, exploring everything that can contribute to my development in the wonderful world of programming.",
+    "hello": "Hello, I'm",
+    "role": "Full Stack Developer",
+    "background": "Full Stack Developer focused on building scalable, user-centered web solutions. I work across backend and frontend, designing REST APIs, dynamic interfaces, and data models, with a mindset of quality and continuous improvement.",
     "buttoms": {
       "download": "Download my CV",
       "view": "View my CV"
     }
   },
   "about": {
-    "about-text": "I am a web developer and currently studying at ISIL, where I continue to strengthen my skills in full-stack development. I consider myself self-taught and am always learning. I worked at a startup, contributing to the technical development of the project. I enjoy challenges and am always ready to take them on. I also integrate artificial intelligence into my workflow with Cursor."
-  },
-  "experience-2": {
-    "title": "Backend Developer",
-    "description1": "I have experience developing server-side applications and systems using JavaScript, PHP, and a variety of technologies and frameworks."
+    "about-text": "I am a Full Stack Developer with experience in backend and frontend, working on web projects focused on scalable, user-centered solutions. I use JavaScript, TypeScript, and Java, with Spring Boot and Node.js on the backend, React and Angular on the frontend, and AWS. I have worked on collaborative projects using agile methods, building APIs, web interfaces, and databases. I am currently in my final term at ISIL."
   },
   "experience": {
-    "title-moru": "Software Developer",
-    "description1": "I worked as a freelance developer on an e-commerce application.",
-    "description2": "As a developer, I always strive to maintain an environment that offers an excellent user experience and, above all, is secure.",
-    "tec-back": "I have experience building server-side applications and systems using:",
-    "tec-database": "I also have experience with databases using:",
-    "tec-cloud": "Cloud skills:",
-    "tec-front": "I also have experience with client-side development using:",
+    "title-moru": "Full Stack Developer at Moru App",
+    "period": "Remote · Sep 2023 – May 2024",
+    "description1": "I contributed to MoruApp, a platform that simplifies buying and selling products across different locations in Colombia, with features such as geolocation, user and business management, and reviews.",
+    "description2": "I helped build REST APIs, develop web interfaces, and manage the database. I worked with Scrum and supported task organization and technical coordination on the backend team.",
+    "tec-back": "Experience building server-side applications and systems with:",
+    "tec-front": "Experience with client-side development using:",
+    "tec-cloud": "Cloud and infrastructure:",
     "tec-ai": "AI and coding assistants:",
-    "tec-ai-desc": "I use AI thoughtfully to speed up iteration, explore options, document, and review code—always validating, testing, and understanding what I ship."
+    "tec-ai-desc": "I use AI deliberately to speed up iteration, explore solutions, document, and review code, always validating, testing, and understanding what I integrate into the project."
   },
   "contact": {
-    "text": "You can check out more about me and reach out to me through the following platforms:"
+    "text": "You can learn more about me and get in touch through these platforms:"
+  },
+  "projects": {
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "viewSite": "View site"
   },
   "projectsEN": [
     {
       "id": "859f4a12-e4aa-4252-b54f-9effe4fa53dd",
       "name": "Format Builder & Manager",
       "image": "/formats-manager.png",
-      "description": "Web application to create, edit, and manage custom formats through a spreadsheet-like interface. It includes folder organization, version control, and export features. In addition, it communicates with services over HTTP and stores/consumes data from a real-time database, with a workflow designed for teams that need to standardize operational processes quickly.",
+      "description": "Web application to create, edit, and manage custom formats through a spreadsheet-like interface. It includes folder organization, version control, and export. It communicates with services over HTTP and stores and consumes data from a real-time database, with a workflow designed for teams that need to standardize operational processes quickly.",
       "urlDeploy": "https://systemformatscdm-production.up.railway.app/records/a7c182f0-802f-49f7-9764-f32284dd041c",
       "urlGitHub": "https://github.com/Isai-Arellano-Koo/system_formats_cdm"
     },
@@ -49,7 +54,7 @@
       "id": "97146066-e609-4784-9f7c-19b5617bb938",
       "name": "Moru App",
       "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699342338/projects%20image/MoruApp_j6k26r.png",
-      "description": "MoruApp is a platform that streamlines the buying and selling of a variety of products across different locations in Colombia, offering features such as geolocation, user and business management, and reviews, among others. The application is powered by technologies like Node.js, Sequelize, ReactJS, and more, delivering an optimized online shopping experience.",
+      "description": "A platform that simplifies buying and selling products across different locations in Colombia. It includes geolocation, user and business management, and reviews. It is built with Node.js, Sequelize, and React.",
       "urlDeploy": "https://moru.com.co/",
       "urlGitHub": null
     },
@@ -57,7 +62,7 @@
       "id": "bb3e1459-999f-4fc4-9257-c6e7b15c3b99",
       "name": "Bookifa",
       "image": "/image/bokifa.png",
-      "description": "Bokifa is a virtual library and bookstore with user login, category filters, and a sortable, paginated catalog. Authorized users get full CRUD for books; shoppers can save titles to favorites and add them to a shopping cart. The app uses lazy loading to keep the UI responsive while browsing larger catalogs.",
+      "description": "A virtual bookstore with sign-in, category filters, sorting and pagination of the catalog, and book CRUD for authorized users. It includes favorites and a shopping cart, and uses lazy loading to optimize content loading.",
       "urlDeploy": "https://books-isil-isai.netlify.app/tiendaadmin",
       "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
     }

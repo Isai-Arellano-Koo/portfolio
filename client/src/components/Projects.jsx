@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const Projects = () => {
   const [t, i18n] = useTranslation("global");
 
-  const projects = i18n.language === "es" ? projectsES : projectsEN;
+  const projects = i18n.language?.startsWith("es") ? projectsES : projectsEN;
 
   return (
     <div className="layout-content max-w-7xl pt-32 lg:pt-40">

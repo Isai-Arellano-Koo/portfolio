@@ -12,7 +12,7 @@ const About = () => {
       </h2>
 
       <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-14">
-        <p className="max-w-3xl font-viet text-xl leading-[1.85] text-color-links/95 lg:text-2xl lg:leading-[1.75]">
+        <p className="max-w-3xl font-viet text-lg leading-relaxed text-color-links/95 sm:text-xl sm:leading-8">
           {t("about.about-text")}
         </p>
 

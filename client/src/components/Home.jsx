@@ -70,7 +70,7 @@ const Home = () => {
           />
         </h1>
         <h2 className="mt-3 font-viet text-2xl text-color-links/95 sm:text-4xl md:mt-4 md:text-5xl">
-          Full Stack Developer
+          {t("header.role")}
         </h2>
         <p className="mt-12 max-w-2xl font-viet text-lg leading-relaxed text-color-links/90 md:text-xl md:leading-relaxed">
           {t("header.background")}

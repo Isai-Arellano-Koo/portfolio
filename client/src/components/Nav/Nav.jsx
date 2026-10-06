@@ -89,7 +89,7 @@ const Nav = () => {
             className="relative z-[60] flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/15 bg-white/[0.04] text-green transition-colors hover:border-green/50 hover:bg-white/[0.07] lg:hidden"
             onClick={() => setIsMobileMenuOpen((o) => !o)}
             aria-expanded={isMobileMenuOpen}
-            aria-label={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
+            aria-label={isMobileMenuOpen ? t("nav.close-menu") : t("nav.open-menu")}
           >
             <span className="sr-only">Menú</span>
             <span
@@ -129,7 +129,7 @@ const Nav = () => {
           type="button"
           className="absolute inset-0 bg-[#050d18]/75 backdrop-blur-sm"
           onClick={() => setIsMobileMenuOpen(false)}
-          aria-label="Cerrar menú"
+          aria-label={t("nav.close-menu")}
         />
         <aside
           className={`absolute right-0 top-0 flex h-full w-full max-w-[20rem] flex-col border-l border-green/15 bg-[#0b1a30]/98 shadow-nav-drawer backdrop-blur-xl transition-transform duration-300 ease-out sm:max-w-[22rem] ${
@@ -137,13 +137,13 @@ const Nav = () => {
           }`}
         >
           <div className="flex items-center justify-between border-b border-white/10 px-5 py-4 pt-20">
-            <span className="font-mono text-xs text-green/90">Navegación</span>
+            <span className="font-mono text-xs text-green/90">{t("nav.navigation")}</span>
             <button
               type="button"
               onClick={() => setIsMobileMenuOpen(false)}
               className="rounded-lg px-3 py-1.5 font-mono text-xs text-color-links transition-colors hover:bg-white/10 hover:text-white"
             >
-              Cerrar
+              {t("nav.close")}
             </button>
           </div>
           <nav className="flex flex-1 flex-col gap-1 overflow-y-auto px-4 py-6">
@@ -169,7 +169,7 @@ const Nav = () => {
           </nav>
           <div className="border-t border-white/10 px-5 py-6">
             <p className="mb-3 font-mono text-xs uppercase tracking-wider text-gray-500">
-              Idioma
+              {t("nav.language")}
             </p>
             <div className="flex gap-2">
               <button

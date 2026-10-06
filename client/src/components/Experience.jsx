@@ -36,7 +36,10 @@ const Experience = () => {
       </h2>
       <div className="space-y-14">
         <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6 text-left shadow-card sm:p-8">
-          <h3 className="font-viet text-xl text-white sm:text-2xl md:text-3xl">
+          <p className="font-mono text-sm tracking-wide text-green">
+            {t("experience.period")}
+          </p>
+          <h3 className="mt-2 font-viet text-xl text-white sm:text-2xl md:text-3xl">
             {t("experience.title-moru")}
           </h3>
           <p className="mt-4 font-viet text-base leading-relaxed text-color-links/90 sm:text-lg">

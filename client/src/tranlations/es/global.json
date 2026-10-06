@@ -1,65 +1,70 @@
 {
-    "nav": {
-        "about-me": "Acerca de mí",
-        "experience": "Experiencia",
-        "projects": "Proyectos",
-        "contact": "Contáctame"
+  "nav": {
+    "about-me": "Acerca de mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contáctame",
+    "open-menu": "Abrir menú",
+    "close-menu": "Cerrar menú",
+    "navigation": "Navegación",
+    "close": "Cerrar",
+    "language": "Idioma"
+  },
+  "header": {
+    "hello": "Hola, soy",
+    "role": "Full Stack Developer",
+    "background": "Desarrollador Full Stack enfocado en construir soluciones web escalables y centradas en el usuario. Trabajo en backend y frontend, diseñando APIs REST, interfaces dinámicas y modelos de datos, con una mentalidad de calidad y mejora continua.",
+    "buttoms": {
+      "download": "Descarga mi CV",
+      "view": "Mira mi CV"
+    }
+  },
+  "about": {
+    "about-text": "Soy desarrollador Full Stack con experiencia en backend y frontend, en proyectos web enfocados en soluciones escalables y centradas en el usuario. Manejo JavaScript, TypeScript y Java, con Spring Boot y Node.js en el backend, React y Angular en el frontend, y AWS. He trabajado en proyectos colaborativos con metodología ágil, participando en el desarrollo de APIs, interfaces web y bases de datos. Actualmente curso el último ciclo en ISIL."
+  },
+  "experience": {
+    "title-moru": "Desarrollador Full Stack en Moru App",
+    "period": "Remoto · sep 2023 – mayo 2024",
+    "description1": "Participé en el desarrollo de MoruApp, una plataforma que simplifica la compra y venta de productos en diferentes ubicaciones de Colombia, con funcionalidades como geolocalización, gestión de usuarios y empresas, y reseñas.",
+    "description2": "Contribuí en la construcción de APIs REST, el desarrollo de interfaces web y la gestión de la base de datos. Trabajé con metodología Scrum y apoyé en la organización de tareas y la coordinación técnica del equipo de backend.",
+    "tec-back": "Experiencia construyendo aplicaciones y sistemas del lado del servidor con:",
+    "tec-front": "Experiencia en el desarrollo del lado del cliente con:",
+    "tec-cloud": "Cloud e infraestructura:",
+    "tec-ai": "IA y asistentes de código:",
+    "tec-ai-desc": "Uso IA de forma consciente para acelerar iteraciones, explorar soluciones, documentar y revisar código, siempre validando, probando y entendiendo lo que integro al proyecto."
+  },
+  "contact": {
+    "text": "Puedes conocer más sobre mí y ponerte en contacto a través de estas plataformas:"
+  },
+  "projects": {
+    "readMore": "Leer más",
+    "readLess": "Leer menos",
+    "viewSite": "Ver sitio"
+  },
+  "projectsES": [
+    {
+      "id": "859f4a12-e4aa-4252-b54f-9effe4fa53dd",
+      "name": "Creador y Gestor de Formatos",
+      "image": "/formats-manager.png",
+      "description": "Aplicación web para crear, editar y gestionar formatos personalizados en una interfaz tipo hoja de cálculo. Incluye organización por carpetas, control de versiones y exportación. Se comunica con servicios por HTTP y guarda y consume información de una base de datos en tiempo real, con un flujo pensado para equipos que necesitan estandarizar procesos operativos con rapidez.",
+      "urlDeploy": "https://systemformatscdm-production.up.railway.app/records/a7c182f0-802f-49f7-9764-f32284dd041c",
+      "urlGitHub": "https://github.com/Isai-Arellano-Koo/system_formats_cdm"
     },
-    "header": {
-        "hello": "Hola!, soy",
-        "background": "Desarrollador Full Stack enfocado en construir soluciones web escalables y centradas en el usuario. Trabajo en backend y frontend, diseñando APIs REST, interfaces dinámicas y modelos de datos, con una mentalidad de calidad y mejora continua.",
-        "buttoms": {
-            "download": "Descarga mi CV",
-            "view": "Mira mi CV"
-        }
+    {
+      "id": "97146066-e609-4784-9f7c-19b5617bb938",
+      "name": "Moru App",
+      "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699342338/projects%20image/MoruApp_j6k26r.png",
+      "description": "Plataforma que simplifica la compra y venta de productos en distintas ubicaciones de Colombia. Incluye geolocalización, gestión de usuarios y empresas, y reseñas. Está construida con Node.js, Sequelize y React.",
+      "urlDeploy": "https://moru.com.co/",
+      "urlGitHub": null
     },
-    "about": {
-        "about-text": "Soy Desarrollador Full Stack con experiencia en desarrollo backend y frontend, participando en proyectos web enfocados en soluciones escalables y centradas en el usuario. Manejo JavaScript, TypeScript y Java, con Spring Boot y Node.js en el backend, React y Angular en el frontend, y AWS. He trabajado en proyectos colaborativos con metodología ágil, participando en el desarrollo de APIs, interfaces web y bases de datos."
-    },
-    "experience": {
-        "title-moru": "Desarrollador Full Stack en Moru App (Remoto) | Sep 2023 - May 2024",
-        "description1": "Participé en el desarrollo de MoruApp, una plataforma que simplifica la compra y venta de productos en diferentes ubicaciones de Colombia, con funcionalidades como geolocalización, gestión de usuarios y empresas, y reseñas.",
-        "description2": "Contribuí en la construcción de APIs REST, desarrollo de interfaces web y gestión de base de datos. Trabajé bajo metodología Scrum y apoyé en la organización de tareas y coordinación técnica dentro del equipo backend.",
-        "tec-back": "Tengo experiencia en construir aplicaciones y sistemas del lado del servidor utilizando:",
-        "tec-cloud": "Cloud e infraestructura:",
-        "tec-database": "También tengo experiencia en bases de datos utilizando:",
-        "tec-front": "También tengo experiencia en el desarrollo del lado del cliente con:",
-        "tec-ai": "IA y asistentes de código:",
-        "tec-ai-desc": "Uso IA de forma consciente para acelerar iteraciones, explorar soluciones, documentar y revisar código; siempre validando, probando y entendiendo lo que integro al proyecto.",
-        "tec-extras": "Herramientas y flujo de trabajo:"
-    },
-    "contact": {
-        "text": "Puedes conocer más sobre mí y ponerte en contacto conmigo a través de las siguientes plataformas:"
-      },
-    "projects": {
-        "readMore": "Leer más",
-        "readLess": "Leer menos"
-    },
-    "projectsES": [
-      {
-        "id": "859f4a12-e4aa-4252-b54f-9effe4fa53dd",
-        "name": "Creador y Gestor de Formatos",
-        "image": "/formats-manager.png",
-        "description": "Aplicación web para crear, editar y gestionar formatos personalizados en una interfaz tipo hoja de cálculo. Incluye organización por carpetas, control de versiones y exportación de formatos. Además, se comunica con servicios a través de HTTP y guarda/consume información de una base de datos en tiempo real, con un flujo pensado para equipos que necesitan estandarizar procesos operativos de forma rápida.",
-        "urlDeploy": "https://systemformatscdm-production.up.railway.app/records/a7c182f0-802f-49f7-9764-f32284dd041c",
-        "urlGitHub": "https://github.com/Isai-Arellano-Koo/system_formats_cdm"
-      },
-      {
-        "id": "97146066-e609-4784-9f7c-19b5617bb938",
-        "name": "Moru App",
-        "image": "https://res.cloudinary.com/isaiarellano/image/upload/v1699342338/projects%20image/MoruApp_j6k26r.png",
-        "description": "MoruApp es una plataforma que simplifica la compra y venta de una variedad de productos en diferentes ubicaciones en Colombia, ofreciendo características como geolocalización, gestión de usuarios y empresas, y reseñas, entre otros. La aplicación está impulsada por tecnologías como Node.js, Sequelize, ReactJS, y más, ofreciendo una experiencia de compra en línea optimizada.",
-        "urlDeploy": "https://moru.com.co/",
-        "urlGitHub": null
-      },
-      {
-        "id": "bb3e1459-999f-4fc4-9257-c6e7b15c3b99",
-        "name": "Bookifa",
-        "image": "/image/bokifa.png",
-        "description": "Bokifa es una librería virtual con inicio de sesión, filtros por categorías, ordenación y paginación del catálogo, y CRUD completo de libros para usuarios autorizados. Incluye favoritos y carrito de compras para gestionar los títulos de interés. La aplicación utiliza lazy loading para optimizar la carga del contenido.",
-        "urlDeploy": "https://books-isil-isai.netlify.app/tiendaadmin",
-        "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
-      }
-    ]
-  }
-  
+    {
+      "id": "bb3e1459-999f-4fc4-9257-c6e7b15c3b99",
+      "name": "Bookifa",
+      "image": "/image/bokifa.png",
+      "description": "Librería virtual con inicio de sesión, filtros por categoría, ordenación y paginación del catálogo, y CRUD de libros para usuarios autorizados. Incluye favoritos y carrito de compras, y usa lazy loading para optimizar la carga del contenido.",
+      "urlDeploy": "https://books-isil-isai.netlify.app/tiendaadmin",
+      "urlGitHub": "https://github.com/Isai-Arellano-Koo/books_isil"
+    }
+  ]
+}

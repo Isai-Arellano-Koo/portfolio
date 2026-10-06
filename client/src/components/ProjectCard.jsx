@@ -16,7 +16,7 @@ const ProjectCard = ({ name, description, image, urlGitHub, urlDeploy }) => {
       : description;
 
   return (
-    <article className="flex max-w-sm flex-col overflow-hidden rounded-2xl border border-white/[0.08] bg-white/[0.02] shadow-card transition-all duration-300 hover:border-green/25 hover:shadow-glow-sm">
+    <article className="flex w-full max-w-sm flex-col overflow-hidden rounded-2xl border border-white/[0.08] bg-white/[0.02] shadow-card transition-all duration-300 hover:border-green/25 hover:shadow-glow-sm">
       <div className="border-b border-white/[0.06] px-5 pb-4 pt-6">
         <h2 className="text-left font-mono text-lg text-green sm:text-xl">{name}</h2>
       </div>
@@ -39,13 +39,25 @@ const ProjectCard = ({ name, description, image, urlGitHub, urlDeploy }) => {
         </p>
         <button
           type="button"
-          className="mt-3 self-start font-mono text-sm text-green transition-colors hover:text-white"
+          className="mb-4 mt-3 self-start font-mono text-sm text-green transition-colors hover:text-white"
           onClick={toggleDescription}
         >
           {showFullDescription ? t("projects.readLess") : t("projects.readMore")}
         </button>
-        {urlGitHub ? (
-          <div className="mt-4 flex w-full justify-end border-t border-white/[0.06] pt-4">
+        <div className="mt-auto flex w-full items-center justify-between border-t border-white/[0.06] pt-4">
+          {urlDeploy ? (
+            <a
+              className="font-mono text-sm text-green transition-colors hover:text-white"
+              href={urlDeploy}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("projects.viewSite")}
+            </a>
+          ) : (
+            <span />
+          )}
+          {urlGitHub ? (
             <a
               className="text-2xl text-color-links transition-colors hover:text-green"
               href={urlGitHub}
@@ -55,8 +67,8 @@ const ProjectCard = ({ name, description, image, urlGitHub, urlDeploy }) => {
             >
               <FaGithub />
             </a>
-          </div>
-        ) : null}
+          ) : null}
+        </div>
       </div>
     </article>
   );
